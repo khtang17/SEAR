@@ -326,7 +326,7 @@ pack.library <- function(
 	write.smi_args=list(),
 	write.set_args=list(),
 	verbose=F){
-
+	browser()
 	tmp_base <- tempfile()
 	molecules_fname <- paste0(tmp_base, ".csv")
 	targets_fname <- paste0(tmp_base, ".set")
